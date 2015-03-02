@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A star</title>
+
+        <script src="https://code.createjs.com/createjs-2014.12.12.min.js"></script>
+        <script src="js/start.js"></script>
+        <script src="js/grid.js"></script>
+        <script src="js/astar.js"></script>
+        <style>
+            body {
+                width: 1200px;
+            }
+            #info {
+                padding: 5px;
+                font-size: 20px;
+            }
+            #options {
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="options">
+            <label>Diagonal enabled
+                <input type="checkbox" value="0" name="diagonal" id="diagonal" />
+            </label>
+        </div>
+        <canvas id="a-star"></canvas>
+        <div id="info"></div>
+    </body>
+</html>
